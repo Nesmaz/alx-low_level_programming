@@ -1,8 +1,8 @@
-#C Programming Basics
+# C Programming Basics
 
 This project is an introduction to the basics of the C programming language. It covers fundamental concepts such as data types, operators, control structures, and functions.
 
-##Resources
+## Resources
 
 To learn more about the C programming language, you can read or watch the following resources:
 
@@ -15,11 +15,11 @@ To learn more about the C programming language, you can read or watch the follow
 * Betty Coding Style
 * You can also use the man or help command to learn more about specific commands or functions, such as gcc, printf (3), puts, and putchar.
 
-##Learning Objectives
+## Learning Objectives
 
 At the end of this project, you should be able to explain to anyone, without the help of Google:
 
-###General
+### General
 
 * Why C programming is awesome
 * Who invented C
@@ -35,9 +35,9 @@ At the end of this project, you should be able to explain to anyone, without the
 * How to find the right header to include in your source code when using a standard library function
 * How does the main function influence the return value of the program
 
-##Requirements
+## Requirements
 
-###C
+### C
 
 * Allowed editors: vi, vim, emacs
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -48,7 +48,7 @@ At the end of this project, you should be able to explain to anyone, without the
 * You are not allowed to use system function
 * Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 
-###Shell Scripts
+### Shell Scripts
 
 * Allowed editors: vi, vim, emacs
 * All your scripts will be tested on Ubuntu 20.04 LTS
@@ -56,9 +56,9 @@ At the end of this project, you should be able to explain to anyone, without the
 * All your files should end with a new line
 * The first line of all your files should be exactly #!/bin/bash
 
-##More Info
+## More Info
 
-###Betty linter
+### Betty linter
 
 To run the Betty linter just with command betty <filename>:
 

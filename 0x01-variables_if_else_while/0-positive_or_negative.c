@@ -4,8 +4,8 @@
 /**
  * main - Entry point
  * Description : print random number with printf function
- * Return : 0 (success)
-*/
+ * Return: 0 if successful, non-zero otherwise
+ */
 
 int main(void)
 {

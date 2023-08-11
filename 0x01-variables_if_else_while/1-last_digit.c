@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point
- * *Description : a program to print last digit of a random number with printf
- * Return : 0 indicates success
-*/
+ * main - Entry point
+ * Description : print random number with printf function
+ * Return: 0 if successful, non-zero otherwise
+ */
+
 
 int main(void)
 {

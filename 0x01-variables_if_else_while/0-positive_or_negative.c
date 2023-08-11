@@ -3,10 +3,8 @@
 #include <time.h>
 /**
  * main - Entry point
- *
- * Description : printint random number with printf function
- *
- * Return : 0 indicates success
+ * Description : print random number with printf function
+ * Return : 0 (success)
 */
 
 int main(void)

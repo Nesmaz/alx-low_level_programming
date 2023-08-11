@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description : print the alphabet in lowercase & uppercase with putchar
+ * Description : print alphabet in lowercase with putchar except e and q
  * Return: 0 (success)
  */
 
@@ -12,14 +12,12 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		putchar(ch++);
-	}
-	ch = 'A';
-	while (ch <= 'Z')
-	{
-		putchar(ch++);
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		ch++;
 	}
 	putchar('\n');
 	return (0);
 }
-

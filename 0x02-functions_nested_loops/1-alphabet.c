@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * 
- * Description : prints alphabet _putchar function prototype
- * Return: alphabet characters from a to z
+ *  print_alphabet -  prints alphabet from a to z
+ *  with _putchar function
  */
 
 void print_alphabet(void)
 {
 	int ch;
 
-	for (ch = 'a'; ch < 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 	_putchar(ch);
 	}

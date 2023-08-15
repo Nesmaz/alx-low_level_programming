@@ -1,7 +1,9 @@
-#ifndef PUTCHAR_H
-#define PUTCHAR_H
+#ifndef MAIN_H
+#define MAIN_H
 
-int print_putchar(void);
+#include<stdio.h>
+int _putchar(char ch);
+
 
 #endif
 

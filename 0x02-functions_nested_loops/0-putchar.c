@@ -1,14 +1,21 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - Entry point
- * Description : print text with printf function
+ * Description : prints _putchar with _putchar function prototype
  * Return: 0 if successful, non-zero otherwise
  */
 
 int main(void)
 {
-	print_putchar();
+	char txt[] = "_putchar";
+	int c;
+
+	for (c = 0; c < 9; c++)
+	{
+	_putchar(txt[c]);
+	}
+	_putchar('\n');
+
 	return (0);
 }
 

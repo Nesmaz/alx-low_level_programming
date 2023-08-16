@@ -31,8 +31,8 @@ void print_times_table(int n)
 				}
 				else if (count >= 100)
 				{
-					_putchar((count / 1000 + '0');
-					_putchar((count / 10) + '0');
+					_putchar((count / 100) + '0');
+					_putchar((count / 10) % 10 + '0');
 				}
 				else if (count <= 99 && count >= 10)
 				{

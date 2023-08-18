@@ -6,6 +6,7 @@
  * fizz instead of 3 and multiplies of 3
  * buzz instead of 5 and multiplies of 5
  * fizz buzz instead of multiplies of 3 and 5
+ * Return: (0) success
  */
 
 int main(void)

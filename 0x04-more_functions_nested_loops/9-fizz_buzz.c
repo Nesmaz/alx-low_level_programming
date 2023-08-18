@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * fizz_buzz - printing numbers from 0 to 100
+ * main - printing numbers from 0 to 100
  * fizz instead of 3 and multiplies of 3
  * buzz instead of 5 and multiplies of 5
  * fizz buzz instead of multiplies of 3 and 5

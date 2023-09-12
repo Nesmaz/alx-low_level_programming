@@ -1,3 +1,8 @@
+#include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 /**
  * new_dog - creates a new dog with the given name, age, and owner
  * @name: the name of the dog
@@ -8,12 +13,14 @@
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
+	dog_t *dog;
+
 	if (!name || !owner)
 	{
 		return (NULL);
 	}
 
-	dog_t *dog = calloc(1, sizeof(dog_t));
+	dog = malloc(sizeof(dog_t));
 
 	if (!dog)
 	{

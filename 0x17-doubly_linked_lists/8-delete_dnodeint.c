@@ -56,6 +56,7 @@ unsigned int len_node(dlistint_t **node)
 	dlistint_t *start;
 
 	start = *node;
+
 	while (start != NULL)
 	{
 		len += 1;
